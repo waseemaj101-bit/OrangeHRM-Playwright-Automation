@@ -1,0 +1,28 @@
+{
+  "name": "orangehrm-playwright-framework",
+  "version": "1.0.0",
+  "description": "Playwright + TypeScript Page Object Model framework for the OrangeHRM demo site",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --project=login --project=chromium",
+    "test:api": "playwright test --project=api",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:headed": "playwright test --project=chromium --headed",
+    "test:debug": "playwright test --ui",
+    "test:login": "playwright test --project=login",
+    "test:pim": "playwright test tests/ui/pim.spec.ts tests/api/pim.api.spec.ts",
+    "test:admin": "playwright test tests/ui/admin.spec.ts tests/api/admin.api.spec.ts",
+    "test:leave": "playwright test tests/ui/leave.spec.ts tests/api/leave.api.spec.ts",
+    "test:recruitment": "playwright test tests/ui/recruitment.spec.ts tests/api/recruitment.api.spec.ts",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^10.6.0",
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^22.0.0",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.9.3"
+  }
+}

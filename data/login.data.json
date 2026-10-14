@@ -1,0 +1,8 @@
+{
+  "invalidMessage": "Invalid credentials",
+  "invalidLogins": [
+    { "name": "wrong password", "username": "Admin", "password": "wrong@123" },
+    { "name": "wrong username", "username": "NoSuchUser", "password": "admin123" },
+    { "name": "wrong username and password", "username": "NoSuchUser", "password": "wrong@123" }
+  ]
+}

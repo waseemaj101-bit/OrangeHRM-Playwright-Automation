@@ -1,0 +1,20 @@
+{
+  "widgets": [
+    "Time at Work",
+    "My Actions",
+    "Quick Launch",
+    "Buzz Latest Posts",
+    "Employees on Leave Today",
+    "Employee Distribution by Sub Unit",
+    "Employee Distribution by Location"
+  ],
+  "menus": [
+    { "name": "Admin", "path": "admin/viewSystemUsers" },
+    { "name": "PIM", "path": "pim/viewEmployeeList" },
+    { "name": "Leave", "path": "leave/viewLeaveList" },
+    { "name": "Time", "path": "time/viewEmployeeTimesheet" },
+    { "name": "Recruitment", "path": "recruitment/viewCandidates" },
+    { "name": "Performance", "path": "performance/searchEvaluatePerformanceReview" },
+    { "name": "Directory", "path": "directory/viewDirectory" }
+  ]
+}

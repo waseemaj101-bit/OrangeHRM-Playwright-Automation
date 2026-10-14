@@ -1,0 +1,6 @@
+{
+  "existingUsers": ["Admin"],
+  "roles": { "admin": "Admin", "ess": "ESS" },
+  "roleIds": { "admin": 1, "ess": 2 },
+  "status": { "enabled": "Enabled", "disabled": "Disabled" }
+}

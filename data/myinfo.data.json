@@ -1,0 +1,8 @@
+{
+  "tabs": [
+    { "name": "Personal Details", "path": "viewPersonalDetails" },
+    { "name": "Contact Details", "path": "contactDetails" },
+    { "name": "Emergency Contacts", "path": "viewEmergencyContacts" },
+    { "name": "Job", "path": "viewJobDetails" }
+  ]
+}

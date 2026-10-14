@@ -1,0 +1,4 @@
+{
+  "entitlementDays": "5",
+  "filters": ["From Date", "To Date", "Show Leave with Status", "Leave Type"]
+}
